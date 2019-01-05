@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/mybatis
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+mybatis:
+  mapper-locations: classpath:*.xml
+  type-aliases-package: com.jskj.entity
